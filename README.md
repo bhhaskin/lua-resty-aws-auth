@@ -1,5 +1,5 @@
 # lua-resty-aws-auth
-Simple lua resty utilities to generate amazon v4 authorization and signature headers.
+This is a fork of paragasu/lua-resty-aws-auth. Simple lua resty utilities to generate amazon v4 authorization and signature headers.
 
 # Installation
 
