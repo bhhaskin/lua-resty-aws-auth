@@ -1,7 +1,7 @@
 -- https://docs.aws.amazon.com/general/latest/gr/samples/aws4_testsuite.zip
 local str = require 'resty.string'
 local luaunit  = require 'luaunit'
-local aws_auth = require 'lib/resty/aws_auth'
+local aws_auth = require 'resty.aws_auth'
 
 local aws = aws_auth:new({
   aws_key = 'AKIDEXAMPLE',
