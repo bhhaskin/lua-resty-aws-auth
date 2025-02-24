@@ -1,14 +1,14 @@
 package = "lua-resty-aws-auth"
-version = "0.12-0"
+version = "0.13-0"
 source = {
-   url = "git://github.com/paragasu/lua-resty-aws-auth",
-   tag = "v0.12-0"
+   url = "git://github.com/bhhaskin/lua-resty-aws-auth",
+   tag = "v0.13-0"
 }
 description = {
    summary  = "Lua resty module to calculate AWS signature v4 authorization header",
-   homepage = "https://github.com/paragasu/lua-resty-aws-auth",
+   homepage = "https://github.com/bhhaskin/lua-resty-aws-auth",
    license  = "MIT",
-   maintainer = "Jeffry L. <paragasu@gmail.com>"
+   maintainer = "Bryan Haskin <bhhaskin@bitsofsimplicity.com>"
 }
 dependencies = {
    "lua >= 5.1",
